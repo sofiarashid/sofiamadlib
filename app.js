@@ -1,57 +1,34 @@
-/* 
-  Mad Lib Starter (Beginner JS)
+let userAdjective1 = prompt("Adjective #1:");
+let userName = prompt("Your Name:");
+let userVerb1 = prompt("Ask the user for ________");
+let userPlace1 = prompt("Ask the user for ________");
+let userAdjective2 = prompt("Ask the user for ________");
+let userColor1 = prompt("Ask the user for ________");
+let userAnimal1 = prompt("Ask the user for ________");
+let userVerb2 = prompt("Ask the user for ________");
+let userFood1 = prompt("Ask the user for ________");
+let userAdjective4 = prompt("Ask the user for ________");
+let userNumber1 = prompt("Ask the user for ________");
+let userFeeling1 = prompt("Ask the user for ________");
+let userObject1 = prompt("Ask the user for ________");
+let userAdjective5 = prompt("Ask the user for ________");
+let userAnimal2 = prompt("Ask the user for ________");
+let userObject2 = prompt("Ask the user for ________");
 
-  GOAL:
-  - Ask the user for several words using prompt()
-  - Save each answer in a variable (use let or const)
-  - Build a story string using a template literal (backticks) with ${variableName}
-  - Put the finished story into the page by setting innerHTML on the element with id "madlib-output"
+let story = `
+Once upon a time, there was a ${userAdjective1} princess named ${userName}.
+Every day, ${userName} would ${userVerb1} in the ${userPlace1}, dreaming of ${userAdjective2} ${userColor1} ${userAnimal1}
+One morning, while ${userVerb2} near the ${userPlace1},${userName} met a ${userAdjective2} ${userColor1} ${userAnimal1} who loved ${userFood1} more than anything else in the world.
+The ${userAnimal1} spoke in a ${userAdjective4} voice and said, "Princess ${userName}, if you help me find the treasure, I will grant you ${userNumber1} wishes!"
+Excited and ${userFeeling1}, ${userName} agreed. Together, they packed some ${userFood1} and started going to find the treasure, a ${Object1}.
+On their journey, they crossed the mountains, sailed across the seas, and even escaped a ${userAdjective5} ${userAnimal1} who guarded a cave full of ${userObject2}.
+${userName} and the ${userAnimal} continued their journey to find the treasure, eventually finding an old chest hidden in a cave.
+They opened it expecting treasure, but it was completely filled with ${userFood1}.
+Nothing magical. Nothing valuable. No treasure.Just ${userFood1}.
+The ${userAnimal1} immediately started eating while Princess ${userName} tried to understand that this was the treasure. All Princess ${userName} wanted was her ${userNumber1} wishes.
+Then the ${userAnimal} said it, in that ${userAdjective4} voice, "Oh, I can't actually grant wishes, thanks for the ${userFood1} though!"
+So Princess ${userName and the ${userAdjective} ${userColor1} ${userAnimal1} went back to the ${userPlace1}, enjoying their lifetime supply of ${userFood1}.
 
-  IMPORTANT:
-  - Do NOT use if/else or any other advanced JS yet.
-  - Only variables, prompt(), strings, and innerHTML.
-  - Write your own prompts and story!
-*/
+`;
 
-/* 1) CREATE VARIABLES 
-   - Make one variable per word you need (e.g., a noun, a verb, an adjective, a place, a number, etc.)
-   - Use prompt() to ask the user for each word.
-   - EXAMPLE CATEGORIES (choose your own): noun1, adjective1, verbPast, place, animal, food
-   - Name variables clearly so you remember what each one is for.
-*/
-
-// let ________ = prompt("Ask the user for ________");
-// let ________ = prompt("Ask the user for ________");
-// (Add as many as your story needs)
-
-/* 2) BUILD YOUR STORY STRING
-   - Use a template literal: it starts and ends with backticks (the ` key).
-   - Insert variables with ${variableName} in your sentence.
-   - Keep it fun! Make sure your story uses ALL the variables you collected.
-*/
-
-// let story = `Write your story here using ${_____} and ${_____} etc.`;
-
-/* 3) DISPLAY THE STORY ON THE PAGE
-   - Select the element with id "madlib-output" using document.getElementById(...)
-   - Set its .innerHTML to your story variable from Step 2.
-   - Optional: include simple <strong> or <em> tags inside your story string for emphasis.
-*/
-
-// document.getElementById("madlib-output").innerHTML = /* your story variable */ ;
-
-/* 4) OPTIONAL POLISH
-   - Add a title or intro line at the top of your story (still using the same innerHTML).
-   - Use <br> tags inside your story string to control line breaks if you want multiple lines.
-   - Keep your variable names, prompts, and story grammar consistent.
-*/
-
-/* 5) RUBRIC REMINDER (quick checklist)
-   - Prompts: You ask for all required words with clear messages.
-   - Variables: You use let/const with meaningful names.
-   - Template Literals: You use backticks and ${} correctly.
-   - Display: The story shows up clearly in #madlib-output.
-   - Bootstrap: Don’t remove the .row/.col structure in index.html.
-   - Comments: Explain each step in your code.
-   - GitHub: Commit often with clear messages; publish on GitHub Pages.
-*/
+document.getElementById("madlib-output").innerHTML = /* your story variable */ ;
