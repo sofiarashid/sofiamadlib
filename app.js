@@ -31,4 +31,4 @@ So Princess ${userName} and the ${userAdjective} ${userColor1} ${userAnimal1} we
 
 `;
 
-document.getElementById("madlib-output").innerHTML = /* your story variable */ ;
+document.getElementById("madlib-output").innerHTML = story;
