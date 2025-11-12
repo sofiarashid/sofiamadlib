@@ -1,19 +1,19 @@
 let userAdjective1 = prompt("Adjective #1:");
 let userName = prompt("Your Name:");
-let userVerb1 = prompt("Ask the user for ________");
-let userPlace1 = prompt("Ask the user for ________");
-let userAdjective2 = prompt("Ask the user for ________");
-let userColor1 = prompt("Ask the user for ________");
-let userAnimal1 = prompt("Ask the user for ________");
-let userVerb2 = prompt("Ask the user for ________");
-let userFood1 = prompt("Ask the user for ________");
-let userAdjective4 = prompt("Ask the user for ________");
-let userNumber1 = prompt("Ask the user for ________");
-let userFeeling1 = prompt("Ask the user for ________");
-let userObject1 = prompt("Ask the user for ________");
-let userAdjective5 = prompt("Ask the user for ________");
-let userAnimal2 = prompt("Ask the user for ________");
-let userObject2 = prompt("Ask the user for ________");
+let userVerb1 = prompt("Verb #1:");
+let userPlace1 = prompt("Place #1:");
+let userAdjective2 = prompt("Adjective #1:");
+let userColor1 = prompt("Color:");
+let userAnimal1 = prompt("Animal:");
+let userVerb2 = prompt("Verb #2:");
+let userFood1 = prompt("Favorite Food:");
+let userAdjective4 = prompt("Adjecive #4:");
+let userNumber1 = prompt("Any Number 1-10:");
+let userFeeling1 = prompt("Any feeling (emotions):");
+let userObject1 = prompt("Any Object:");
+let userAdjective5 = prompt("Adjective #5");
+let userAnimal2 = prompt("Animal #2");
+let userObject2 = prompt("Object #2");
 
 let story = `
 Once upon a time, there was a ${userAdjective1} princess named ${userName}.
