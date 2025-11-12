@@ -27,7 +27,7 @@ They opened it expecting treasure, but it was completely filled with ${userFood1
 Nothing magical. Nothing valuable. No treasure.Just ${userFood1}.
 The ${userAnimal1} immediately started eating while Princess ${userName} tried to understand that this was the treasure. All Princess ${userName} wanted was her ${userNumber1} wishes.
 Then the ${userAnimal} said it, in that ${userAdjective4} voice, "Oh, I can't actually grant wishes, thanks for the ${userFood1} though!"
-So Princess ${userName and the ${userAdjective} ${userColor1} ${userAnimal1} went back to the ${userPlace1}, enjoying their lifetime supply of ${userFood1}.
+So Princess ${userName} and the ${userAdjective} ${userColor1} ${userAnimal1} went back to the ${userPlace1}, enjoying their lifetime supply of ${userFood1}.
 
 `;
 
