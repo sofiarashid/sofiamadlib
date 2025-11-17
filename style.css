@@ -4,13 +4,18 @@
 }
 
 .card {
-  border-radius: var(--card-radius);
+  border-radius: 1rem;
+  background-color: pink
+  color: darkred;
 }
 
 #madlib-output {
   min-height: 6rem; /* keeps the card from collapsing before story appears */
   line-height: 1.6;
   font-size: 1.05rem;
+  background-color: pink;
+  color: darkred;
+  padding: 1rem;
 }
 
 body {
